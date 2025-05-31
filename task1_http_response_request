@@ -1,0 +1,26 @@
+We are using browser's developer tools to inspect http request and response when visiting website.
+Request URL
+Example: https://www.codex.com
+It tells browser where to send the request.
+
+Request Method
+Request methods are the ways a client (like a web browser or an application) asks a server for information or sends data.
+They define the action to be performed on a resourse. Here are some common request methods:
+GET: Retrives data from a server (like when you visit a webpage).
+POST: Sends data to the server, often used when submitting forms.
+
+
+
+
+Status_code
+It indicates the response from server tooo browser what happen to request like:
+200 ok:Request as Successful, seerver return the requested content.
+404 error: Page dosen't exist on the server.
+503 service unavailable: Server is down or busy.\
+
+Headers 
+This gives extra info about response from server.
+cache-control: Tells browser whether to store/copy the page for reuse
+Connection: Shows whether to keep the connection open (keep-alive)
+Content-Length: Size of the response in bytes.
+Date: When the server sent the response
